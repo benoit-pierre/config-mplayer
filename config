@@ -1,0 +1,38 @@
+
+# Default profile. {{{
+
+[default]
+
+# Audio.
+ao=pulse,alsa,
+volstep=2
+
+# Input.
+lirc=no
+
+# Language selection.
+alang=jpn,en,fr
+slang=en,fr
+
+# OSD.
+progbar-align=0
+
+# Verbosity.
+msglevel=all=3:cache=5:input=1:statusline=5
+
+# Video.
+fixed-vo=yes
+vo=vdpau,xv.
+
+# }}}
+
+# Profile for Youtube videos. {{{
+
+[youtube]
+
+cache=30000
+cache-min=20
+
+# }}}
+
+# vim: ft=mplayerconf foldmethod=marker
