@@ -16,6 +16,7 @@ slang=en,fr
 
 # OSD.
 progbar-align=0
+osd-duration=2500
 
 # Verbosity.
 msglevel=all=3:cache=5:input=1:statusline=5
