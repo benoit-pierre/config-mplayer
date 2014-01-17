@@ -23,7 +23,7 @@ msglevel=all=3:cache=5:input=1:statusline=5
 
 # Video.
 fixed-vo=yes
-vo=vdpau,xv.
+vo=vdpau,xv,
 
 # }}}
 
